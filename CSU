@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+
+
+
+int main() {
+
+	float num1, num2;
+
+
+	cout << "A couple of numbers, if you please:" << endl;
+	cin >> num1;
+	cin >> num2;
+	cout << " Division of" << " " << num1 << " " << "by" << " " << num2 << ":  " << num1 / num2 << endl;
+	if (num1 < num2)
+		cout << "In order:" << " " << num1 << " " << num2 << endl;
+	else
+		cout << "In order:" << num2 << num1 << endl;
+	if (num1 == 13)
+		cout << "Bad luck" << endl;
+	if (num2 == 13)
+		cout << "Bad luck!" << endl;
+	cout << "odd:";
+	if (static_cast<int>(num1) % 2 == 0)
+		cout << num1;
+
+
+
+}
